@@ -124,9 +124,9 @@ def wikicate_to_txt(wiki_lang, category, save_dir=None, max_len=None):
 
 # Get single document
 # wikipedia_url = 'https://en.wikipedia.org/wiki/Python_(programming_language)'
-# wikidoc_to_txt(wiki_lang='en', doc_name='Python_(programming_language)')
+wikidoc_to_txt(wiki_lang='en', doc_name='Python_(programming_language)')
 
 
-# wiki_lang = 'en'
-# category = 'Python_(programming_language)'
-# wikicate_to_txt(wiki_lang, category, save_dir='practice')
+wiki_lang = 'en'
+category = 'Python_(programming_language)_category'
+wikicate_to_txt(wiki_lang, category, save_dir=category)
