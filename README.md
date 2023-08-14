@@ -14,8 +14,7 @@ If you want to use this as GUI, you have to install PyQt5.
 1. clone this repo
 2. pip install -r requirements.txt
 3. in the src folder, you can find the script.py which you can run it right away. You can find the sample code in the very bottom of the script.
-4. 
-5. If you want to use the GUI, run main.py as
+4. If you want to use the GUI, run main.py as
 ```
 python main.py
 ```
