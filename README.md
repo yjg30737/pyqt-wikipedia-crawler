@@ -27,7 +27,7 @@ wikicate_to_txt(wiki_lang, category, save_dir=None, max_len=None) # download eve
 
 Both methods are pretty self-explanatory.
 
-You can download any document from the Wikipedia (no matter the language is) and you can get it in your local directory as text file.
+You can download document from the Wikipedia and you can get it in your local directory as text file.
 
 There are two types of document you can download. One is single document and the other is category document.
 
@@ -35,4 +35,9 @@ The latter one, you can crawl every documents in that category. Each document wi
 
 ## GUI Preview
 ![image](https://github.com/yjg30737/pyqt-wikipedia-crawler/assets/55078043/62481f73-8c4b-4b79-92ae-372e1c3305c5)
+
+## Note
+If you want to add new language you can do it in script.py
+
+Find the "ADD YOUR CODE HERE" and add your language code in the list.
 
