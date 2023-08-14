@@ -13,6 +13,8 @@ def get_languages():
     for d in data:
         result[d['English']] = d['alpha2']
 
+    # ADD YOUR CODE HERE
+    # SEE THE src/language-codes_json.json TO FIND YOUR LANGUAGE
     common_lang = [
         'ar',
         'de',
@@ -122,11 +124,10 @@ def wikicate_to_txt(wiki_lang, category, save_dir=None, max_len=None):
 
 # IF YOU WANT TO USE THIS AS CUI, THEN YOU CAN USE LIKE BELOW:
 
-# Get single document
-# wikipedia_url = 'https://en.wikipedia.org/wiki/Python_(programming_language)'
-wikidoc_to_txt(wiki_lang='en', doc_name='Python_(programming_language)')
-
-
-wiki_lang = 'en'
-category = 'Python_(programming_language)_category'
-wikicate_to_txt(wiki_lang, category, save_dir=category)
+# get single document
+# wikidoc_to_txt(wiki_lang='en', doc_name='Python_(programming_language)')
+#
+# get documents in certain category
+# wiki_lang = 'en'
+# category = 'Python_(programming_language)_category'
+# wikicate_to_txt(wiki_lang, category, save_dir=category)
